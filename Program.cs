@@ -16,6 +16,8 @@ namespace CatWorx.BadgeMaker
             // we call GetEmployees() and then PrintEmployees() prints it out in the console
             List<Employee> employees = new List<Employee>();
 
+            // http://placekitten.com/200/300 --> link for placeholder image
+
             string Answer;
             //give user choice to fetch data frpm api or manually create badge
             Console.WriteLine("Do you want to fetch data from the APi? (y=Yes/n=No)");
